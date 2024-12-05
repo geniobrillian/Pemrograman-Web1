@@ -33,8 +33,8 @@ while ($data = mysqli_fetch_array($query)) {
         <td><?php echo $data ['agama']?></td>
         <td><?php echo $data ['asal_sekolah']?></td>
         <td>
-            <a href = "">Edit</a>
-            <a href = "">Hapus</a>
+            <a href = "">Edit |</a>
+            <a href = "">| Hapus</a>
         </td>
 
     </tr>
