@@ -85,7 +85,7 @@
     </div>
 
     <footer>
-        &copy; 2024 SMAN 1 Jombang. All rights reserved.
+        &copy; 2024 SMAN 1 Jombang | Genio_.
     </footer>
 </body>
 </html>
