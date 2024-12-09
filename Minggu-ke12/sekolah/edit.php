@@ -17,14 +17,14 @@
     $query = mysqli_query($conn,"SELECT * FROM siswa WHERE id='$id'");
     while ($data = mysqli_fetch_array($query)) {
     ?>
-    <form action="edit_aksi.php" method="post">
+    <form method="post" action="edit_aksi.php" >
         <table>
 
             <tr>
                 <td>Nama</td>
                 <td>
                     <input type="hidden" name="id" value="<?php echo $data['id'];?>" >
-                    <input type="text name="nama" value="<?php echo $data['nama'];?>" >
+                    <input type="text" name= "nama" value="<?php echo $data['nama'];?>" >
                 </td>
             </tr>
             <tr>
@@ -36,11 +36,10 @@
             <tr>
                 <td>Alamat</td>
                 <td>
-                    <input type="text name="alamat" value="<?php echo $data['alamat'];?>" >
+                    <input type="text" name ="alamat" value="<?php echo $data['alamat'];?>" >
                 </td>
             </tr>
             <tr>
-                <td>Nama</td>
                 <td></td>
                 <td><input type="submit" value="SIMPAN"></td>
             </tr>
@@ -48,7 +47,7 @@
     </form>
     <?php
     }
-    ?>
+    ?> 
     
 </body>
 </html>
