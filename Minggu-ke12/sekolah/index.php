@@ -9,7 +9,7 @@
     <h2>SI Sekolah | Data Siswa</h2>
     <br>
     <a href="tambah.php">Tambah Data</a>
-    <br>
+    <br> <br>
     <table border="1">
         <tr>
             <th>No</th>

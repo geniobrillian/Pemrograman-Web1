@@ -10,7 +10,6 @@
     <br>
     <a href="index.php">Halaman Utama</a>
     <br>
-    <br>
     <h3>Tambah Data Siswa</h3>
     <form action="tambah_aksi.php" method="post">
     <table>
